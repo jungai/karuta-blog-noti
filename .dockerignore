@@ -1,0 +1,9 @@
+# ignore everything
+*
+
+# except
+!./package.json
+!./pnpm-lock.yaml
+!./index.js
+!./app.js
+!./controllers
