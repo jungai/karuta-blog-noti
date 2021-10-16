@@ -23,7 +23,7 @@ const karutaBlogNoti = (req, res) => {
 ${req.body?.workflow_run?.head_commit?.author?.name || "Bug kub"}
 **Commit**
 ${req.body?.workflow_run?.head_commit?.message || "Bug kub"}
-**See -> ${process.env.URL || Bug} **
+**See -> ${process.env.URL || "Bug kub"} **
     `
     )
     .setColor("#2ecc71");
